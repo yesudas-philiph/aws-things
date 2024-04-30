@@ -1,0 +1,7 @@
+while using api gateway or otherlogs try patterns
+
+for finding 50x errors in a json stuctured logs --> {$.status="50*"}
+for finding 40x errors in a json stuctured logs --> {$.status="40*"}
+
+
+source: https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/FilterAndPatternSyntax.html#matching-terms-events
